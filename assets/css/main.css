@@ -1,0 +1,52 @@
+* {
+box-sizing: border-box;
+margin: 0px;
+padding: 0px;
+font-family: 'Inconsolata', monospace;
+text-align: center;
+}
+
+body{
+  background-color: rgba(219, 195, 195, 0.43);
+}
+#titulo{
+  font-size: 50px;
+  display: inline-block;
+  text-decoration: underline;
+  position: relative;
+  right: 33%;
+}
+.coders{
+  display: block;
+  width: 400px;
+  height: 400px;
+  left: 50px;
+}
+.caja-foto{
+
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  position:relative;
+  top:10px;
+  margin: 9px;
+  background-color: rgba(#ffbd2d, 0);
+  overflow: hidden;
+}
+#contenedor {
+  position: relative;
+  top: 20px;
+  padding: 0;
+  margin-left: 0;
+  display: inline-block;
+}
+
+.caja-foto span{
+  display: block;
+  position: absolute;
+  bottom: 52px;
+  left: 100px;
+  line-height: 0;
+  font-size: 26px;
+  color: white;
+  }
